@@ -1,4 +1,16 @@
+<div align="center">
+
 ![Terminal banner](assets/terminal.svg)
+
+</div>
+
+```bash
+$ whoami
+diego
+$ cat /etc/identity
+Computer Engineering @ Purdue University
+> professional hello world engineer.
+```
 # hey, i'm diego 👾
 
 **Computer Engineering @ Purdue University**
@@ -11,12 +23,12 @@ I'm interested in software, systems, cybersecurity, and pretty much anything tha
 
 ### `what i'm into`
 
-- 💻 Software development, backend engineering & APIs
-- 🔐 Cybersecurity, networking & understanding how systems break
-- ⚙️ Systems programming, operating systems & computer architecture
-- 🗄️ Databases, distributed systems & infrastructure
-- 📈 Quantitative finance, markets & mathematical modeling
-- 🧪 Side projects, weird experiments & technical rabbit holes
+- Software development, backend engineering & APIs
+- Cybersecurity, networking & understanding how systems break
+- Systems programming, operating systems & computer architecture
+- Databases, distributed systems & infrastructure
+- Quantitative finance, markets & mathematical modeling
+- Side projects, weird experiments & technical rabbit holes
 
 ### `languages & tools`
 
@@ -41,11 +53,11 @@ I like projects that teach me something new, whether that's understanding how a 
 
 ### `what's next?`
 
-- 📊 Exploring quantitative finance, algorithmic trading & strategy backtesting
-- 🧠 Getting deeper into probability, statistics, and mathematical modeling
-- 🔒 Learning more about cybersecurity, networking, and systems internals
-- 🦀 Building more systems-level projects with Rust and C/C++
-- 🛠️ Experimenting with new languages, tools, and ideas that catch my attention
+- Exploring quantitative finance, algorithmic trading & strategy backtesting
+- Getting deeper into probability, statistics, and mathematical modeling
+- Learning more about cybersecurity, networking, and systems internals
+- Building more systems-level projects with Rust and C/C++
+- Experimenting with new languages, tools, and ideas that catch my attention
 
 ### `philosophy`
 
