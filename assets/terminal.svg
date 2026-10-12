@@ -1,41 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050a05"/>
-      <stop offset="100%" stop-color="#101810"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <rect width="1000" height="280" rx="14" fill="url(#bg)" stroke="#1eff75" stroke-opacity=".6"/>
-
-  <path d="M0 42 H1000" stroke="#1eff75" stroke-opacity=".35"/>
-  <circle cx="24" cy="22" r="5" fill="#ff5f56"/>
-  <circle cx="44" cy="22" r="5" fill="#ffbd2e"/>
-  <circle cx="64" cy="22" r="5" fill="#27c93f"/>
-
-  <text x="88" y="27" fill="#83ffad" font-family="monospace" font-size="13">diego@purdue: ~</text>
-
-  <g font-family="monospace" fill="#39ff85" filter="url(#glow)">
-    <text x="56" y="105" font-size="18">$ whoami</text>
-    <text x="56" y="165" font-size="48" font-weight="bold">diego</text>
-    <text x="56" y="199" font-size="17" fill="#b7ffc9">computer engineering student // builder of things</text>
-    <text x="56" y="239" font-size="16">$ build · break · learn · repeat_</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
+  <rect x="1" y="1" width="998" height="318" rx="12" fill="#080d08" stroke="#39ff85" stroke-width="2"/>
+  <path d="M13 1 H987 Q999 1 999 13 V48 H1 V13 Q1 1 13 1" fill="#123b20"/>
+  <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="45" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="66" cy="24" r="6" fill="#27c93f"/>
+  <text x="500" y="29" text-anchor="middle" fill="#b8ffcb" font-family="monospace" font-size="15">diego@purdue: ~</text>
+  <g font-family="monospace">
+    <text x="40" y="88" fill="#39ff85" font-size="17">$ whoami</text>
+    <text x="40" y="139" fill="#e1ffe9" font-size="42" font-weight="bold">diego</text>
+    <text x="40" y="172" fill="#39ff85" font-size="17">Computer Engineering @ Purdue University</text>
+    <text x="40" y="216" fill="#39ff85" font-size="17">$ cat status.txt</text>
+    <text x="40" y="244" fill="#b8ffcb" font-size="15">building things · learning systems · breaking stuff</text>
+    <text x="40" y="286" fill="#39ff85" font-size="15">$ echo "build, break, learn, repeat"</text>
   </g>
-
-  <g stroke="#39ff85" stroke-opacity=".6" fill="none">
-    <path d="M760 85 L820 125 L760 165"/>
-    <path d="M835 165 H910"/>
-    <path d="M760 185 H900 V215 H790"/>
-    <circle cx="870" cy="85" r="38"/>
-    <path d="M850 85 H890 M870 65 V105"/>
-  </g>
-
-  <text x="56" y="263" fill="#62c981" font-family="monospace" font-size="11">SYSTEM ONLINE // CURIOSITY LEVEL: HIGH</text>
+  <path d="M40 299 H52" stroke="#39ff85" stroke-width="3"/>
+  <text x="960" y="299" text-anchor="end" fill="#4d9e69" font-family="monospace" font-size="12">SESSION ACTIVE</text>
 </svg>
