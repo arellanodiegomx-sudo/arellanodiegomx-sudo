@@ -1,3 +1,4 @@
+![Terminal banner](assets/terminal.svg)
 # hey, i'm diego 👾
 
 **Computer Engineering @ Purdue University**
