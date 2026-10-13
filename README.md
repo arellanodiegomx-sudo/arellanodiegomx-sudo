@@ -1,7 +1,5 @@
 ![Diego's Terminal banner](assets/terminal.svg)
 
-Read me
-![Terminal banner](assets/terminal.svg)
 
 # hey, i'm diego 👾
 
