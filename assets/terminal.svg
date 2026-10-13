@@ -1,18 +1,164 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320">
-  <rect x="1" y="1" width="998" height="318" rx="12" fill="#080d08" stroke="#39ff85" stroke-width="2"/>
-  <path d="M13 1 H987 Q999 1 999 13 V48 H1 V13 Q1 1 13 1" fill="#123b20"/>
-  <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
-  <circle cx="45" cy="24" r="6" fill="#ffbd2e"/>
-  <circle cx="66" cy="24" r="6" fill="#27c93f"/>
-  <text x="500" y="29" text-anchor="middle" fill="#b8ffcb" font-family="monospace" font-size="15">diego@purdue: ~</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1660" viewBox="0 0 1000 1660">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080d08"/>
+      <stop offset="100%" stop-color="#0b120c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="1658" rx="14"
+        fill="url(#bg)" stroke="#1eff75" stroke-width="2"/>
+
+  <!-- Terminal title bar -->
+  <path d="M15 1 H985 Q999 1 999 15 V54 H1 V15 Q1 1 15 1"
+        fill="#123b20"/>
+  <circle cx="25" cy="27" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="27" r="6" fill="#ffbd2e"/>
+  <circle cx="67" cy="27" r="6" fill="#27c93f"/>
+  <text x="500" y="32" text-anchor="middle"
+        fill="#b8ffcb" font-family="monospace" font-size="15">
+    diego@purdue: ~/profile
+  </text>
+  <path d="M1 54 H999" stroke="#39ff85" stroke-opacity=".55"/>
+
+  <!-- Introduction -->
   <g font-family="monospace">
-    <text x="40" y="88" fill="#39ff85" font-size="17">$ whoami</text>
-    <text x="40" y="139" fill="#e1ffe9" font-size="42" font-weight="bold">diego</text>
-    <text x="40" y="172" fill="#39ff85" font-size="17">Computer Engineering @ Purdue University</text>
-    <text x="40" y="216" fill="#39ff85" font-size="17">$ cat status.txt</text>
-    <text x="40" y="244" fill="#b8ffcb" font-size="15">building things · learning systems · breaking stuff</text>
-    <text x="40" y="286" fill="#39ff85" font-size="15">$ echo "build, break, learn, repeat"</text>
+    <text x="42" y="103" fill="#39ff85" font-size="17">$ whoami</text>
+    <text x="42" y="158" fill="#39ff85" font-size="43"
+          font-weight="bold" filter="url(#glow)">hey, i'm diego 👾</text>
+    <text x="42" y="192" fill="#d9ffe4" font-size="17">
+      Computer Engineering @ Purdue University
+    </text>
+    <text x="42" y="224" fill="#82d99d" font-size="15">
+      professional hello world engineer.
+    </text>
+
+    <path d="M42 247 H958" stroke="#245d35"/>
+
+    <text x="42" y="279" fill="#39ff85" font-size="17"
+          font-weight="bold">ABOUT ME</text>
+    <g fill="#d5e9d9" font-size="15">
+      <text x="42" y="309">I like figuring out how things work by building them, breaking</text>
+      <text x="42" y="332">them, and occasionally wondering why they worked in the first place.</text>
+      <text x="42" y="370">I'm interested in software, systems, cybersecurity, and pretty much</text>
+      <text x="42" y="393">anything that lets me get closer to the metal. I like exploring</text>
+      <text x="42" y="416">unfamiliar technologies, experimenting with ideas, and building</text>
+      <text x="42" y="439">things just to see if I can.</text>
+    </g>
+
+    <path d="M42 464 H958" stroke="#245d35"/>
+
+    <!-- Interests -->
+    <text x="42" y="498" fill="#39ff85" font-size="19"
+          font-weight="bold">WHAT I'M INTO</text>
+    <g fill="#b8ffcb" font-size="15">
+      <text x="48" y="533">›</text>
+      <text x="70" y="533" fill="#d5e9d9">Software development, backend engineering &amp; APIs</text>
+      <text x="48" y="564">›</text>
+      <text x="70" y="564" fill="#d5e9d9">Cybersecurity, networking &amp; understanding how systems break</text>
+      <text x="48" y="595">›</text>
+      <text x="70" y="595" fill="#d5e9d9">Systems programming, operating systems &amp; computer architecture</text>
+      <text x="48" y="626">›</text>
+      <text x="70" y="626" fill="#d5e9d9">Databases, distributed systems &amp; infrastructure</text>
+      <text x="48" y="657">›</text>
+      <text x="70" y="657" fill="#d5e9d9">Quantitative finance, markets &amp; mathematical modeling</text>
+      <text x="48" y="688">›</text>
+      <text x="70" y="688" fill="#d5e9d9">Side projects, weird experiments &amp; technical rabbit holes</text>
+    </g>
+
+    <path d="M42 716 H958" stroke="#245d35"/>
+
+    <!-- Languages and tools -->
+    <text x="42" y="750" fill="#39ff85" font-size="19"
+          font-weight="bold">LANGUAGES &amp; TOOLS</text>
+
+    <text x="42" y="787" fill="#39ff85" font-size="15">LANGUAGES</text>
+    <text x="42" y="812" fill="#d5e9d9" font-size="15">
+      Python · C · C++ · Java · Rust · JavaScript · TypeScript
+    </text>
+    <text x="42" y="835" fill="#d5e9d9" font-size="15">
+      Perl · SQL · Bash · SystemVerilog
+    </text>
+
+    <text x="42" y="875" fill="#39ff85" font-size="15">WEB &amp; BACKEND</text>
+    <text x="42" y="900" fill="#d5e9d9" font-size="15">
+      React · JSX · Node.js · FastAPI · HTML/CSS
+    </text>
+    <text x="42" y="923" fill="#d5e9d9" font-size="15">
+      REST APIs · GraphQL
+    </text>
+
+    <text x="42" y="963" fill="#39ff85" font-size="15">DATA</text>
+    <text x="42" y="988" fill="#d5e9d9" font-size="15">
+      PostgreSQL · MySQL · NoSQL · JSON · XML
+    </text>
+
+    <text x="42" y="1028" fill="#39ff85" font-size="15">TOOLS &amp; SYSTEMS</text>
+    <text x="42" y="1053" fill="#d5e9d9" font-size="15">
+      Linux · Git · GitHub · Make · HTTP · Networking
+    </text>
+
+    <text x="42" y="1090" fill="#82d99d" font-size="14" font-style="italic">
+      Always learning something new. Definitely not claiming to have mastered everything.
+    </text>
+
+    <path d="M42 1117 H958" stroke="#245d35"/>
+
+    <!-- Building -->
+    <text x="42" y="1152" fill="#39ff85" font-size="19"
+          font-weight="bold">WHAT I'M BUILDING</text>
+    <g fill="#d5e9d9" font-size="14.5">
+      <text x="42" y="1185">I like projects that teach me something new, whether that's</text>
+      <text x="42" y="1207">understanding a system under the hood or turning an idea into software.</text>
+    </g>
+
+    <text x="42" y="1244" fill="#b8ffcb" font-size="15"
+          font-weight="bold">Systems &amp; low-level programming</text>
+    <text x="42" y="1268" fill="#d5e9d9" font-size="14">
+      Exploring memory, processes, networking, and hardware interactions.
+    </text>
+
+    <text x="42" y="1303" fill="#b8ffcb" font-size="15"
+          font-weight="bold">Cybersecurity</text>
+    <text x="42" y="1327" fill="#d5e9d9" font-size="14">
+      Learning security fundamentals, authorized labs, and vulnerabilities.
+    </text>
+
+    <text x="42" y="1362" fill="#b8ffcb" font-size="15"
+          font-weight="bold">Software &amp; infrastructure</text>
+    <text x="42" y="1386" fill="#d5e9d9" font-size="14">
+      Building APIs, working with databases, and connecting systems.
+    </text>
+
+    <text x="42" y="1421" fill="#b8ffcb" font-size="15"
+          font-weight="bold">Quant &amp; data projects</text>
+    <text x="42" y="1445" fill="#d5e9d9" font-size="14">
+      Market data, strategy backtesting, code, and statistical exploration.
+    </text>
+
+    <path d="M42 1473 H958" stroke="#245d35"/>
+
+    <!-- Next steps and philosophy -->
+    <text x="42" y="1507" fill="#39ff85" font-size="19"
+          font-weight="bold">WHAT'S NEXT?</text>
+    <g fill="#d5e9d9" font-size="14">
+      <text x="48" y="1535">› Exploring quantitative finance and algorithmic trading</text>
+      <text x="48" y="1558">› Deepening probability, statistics, and mathematical modeling</text>
+      <text x="48" y="1581">› Learning cybersecurity, networking, and systems internals</text>
+      <text x="48" y="1604">› Building with Rust and C/C++; experimenting with new ideas</text>
+    </g>
   </g>
-  <path d="M40 299 H52" stroke="#39ff85" stroke-width="3"/>
-  <text x="960" y="299" text-anchor="end" fill="#4d9e69" font-family="monospace" font-size="12">SESSION ACTIVE</text>
+
+  <!-- Philosophy footer -->
+  <path d="M1 1623 H999" stroke="#245d35"/>
+  <text x="42" y="1645" fill="#39ff85" font-family="monospace" font-size="14">
+    LEARN BY BUILDING. UNDERSTAND BY BREAKING. REPEAT.
+  </text>
 </svg>
