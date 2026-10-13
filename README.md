@@ -1,3 +1,3 @@
-![Terminal banner](assets/terminal.svg)
+![Diego's Terminal banner](assets/terminal.svg)
 
 
