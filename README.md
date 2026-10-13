@@ -57,13 +57,5 @@ Learn by building. Understand by breaking. Repeat.
 
 *If it can be coded, automated, reverse-engineered, or built from scratch, I probably want to try it.*
 
-### $ cat philosophy.txt
-
-Learn by building. Understand by breaking. Repeat.
-
----
-
-*If it can be coded, automated, reverse-engineered, or built from scratch, I probably want to try it.*
-
 
 
